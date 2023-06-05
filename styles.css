@@ -1,4 +1,5 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(242, 216, 216);
 }
 h1,h2,h3,h4{
@@ -11,19 +12,22 @@ h1,h2,h3,h4{
    color:rgb(55, 66, 89);
      
 }
-
 img {
-  
-  min-height: 100%;
-  min-width: 500px;
-	
- 
-  width: 100%;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 h1 {
    font-size: 80px;    
 }
 h3 {
     font-size: 50px;
+}
+h4{
+   font-size: 40px; 
+}
+li {
+   font-size: 25px; 
+
 }
